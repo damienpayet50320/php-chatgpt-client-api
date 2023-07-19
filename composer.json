@@ -1,0 +1,14 @@
+{
+  "name": "damienpayet50320/php-chatgpt-client-api",
+  "description": "PHP Client for Interacting with ChatGPT's GPT-3.5 API",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ChatGPT\\": "lib/"
+    }
+  }
+}

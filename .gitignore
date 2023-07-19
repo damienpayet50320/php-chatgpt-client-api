@@ -1,0 +1,24 @@
+# General PHP-related ignores
+*.log
+*.swp
+*.swo
+*.php.bak
+
+# Composer generated files
+/vendor/
+/composer.lock
+
+# IDE-specific files and directories
+.idea/
+.vscode/
+
+# Environment configuration files
+.env
+
+# Temporary files and directories
+/logs/
+/tmp/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
